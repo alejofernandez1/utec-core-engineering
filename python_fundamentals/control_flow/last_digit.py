@@ -1,4 +1,3 @@
-
 #!/usr/bin/env python3
 number = __import__('random').randint(-10000, 10000)
 
@@ -15,4 +14,3 @@ elif last_digit == 0:
     print(f"{message} and is 0")
 else:
     print(f"{message} and is less than 6 and not 0")
-
