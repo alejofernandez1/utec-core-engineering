@@ -1,5 +1,4 @@
 #!/usr/bin/env python3
-for letter in range(97, 124):
+for letter in range(97, 123):
     if letter != 101 and letter != 113:
-        print("{}".format(chr(letter) if letter < 123 else "\n"),
-              end="")
+        print("{}".format(chr(letter)), end="")
