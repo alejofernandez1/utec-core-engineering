@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """Rectangle implementation."""
 
-from base_geometry import BaseGeometry
+BaseGeometry = __import__("base_geometry").BaseGeometry
 
 
 class Rectangle(BaseGeometry):
