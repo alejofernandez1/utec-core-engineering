@@ -13,5 +13,5 @@ class Square(Rectangle):
         super().__init__(size, size)
 
     def __str__(self):
+        """Return the square description."""
         return f"[Square] {self.__size}/{self.__size}"
-
