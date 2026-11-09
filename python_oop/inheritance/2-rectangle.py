@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """Complete rectangle implementation."""
 
-from base_geometry import BaseGeometry
+BaseGeometry = __import__("base_geometry").BaseGeometry
 
 
 class Rectangle(BaseGeometry):
@@ -14,7 +14,9 @@ class Rectangle(BaseGeometry):
         self.__height = height
 
     def area(self):
+        """Return the rectangle area."""
         return self.__width * self.__height
 
     def __str__(self):
+        """Return the rectangle description."""
         return f"[Rectangle] {self.__width}/{self.__height}"
