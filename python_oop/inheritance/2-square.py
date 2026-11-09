@@ -1,4 +1,4 @@
-#!/usr/bin/python3
+#!/usr/bin/env python3
 """Complete square implementation."""
 
 Rectangle = __import__("2-rectangle").Rectangle

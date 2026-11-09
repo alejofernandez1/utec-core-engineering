@@ -1,4 +1,4 @@
-#!/usr/bin/python3
+#!/usr/bin/env python3
 """Complete rectangle implementation."""
 
 from base_geometry import BaseGeometry
